@@ -1,0 +1,33 @@
+/*
+Challenge:
+1. Center the text and button
+2. Style the button according to the design.
+   Use a class to select the button.
+*/
+
+body {
+    color: white;
+    background-image: url("music.webp");
+    background-size: cover;
+    font-family: "Orbitron", sans-serif;
+    text-shadow: -5px 5px 10px black;
+}
+.btn{
+    font-family: "Orbitron", sans-serif;
+    text-shadow: -5px 5px 10px black;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px 5px 10px;
+    border-radius: 1px
+}
+.title{
+   text-align: center;
+    margin-bottom:50px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+
+}
